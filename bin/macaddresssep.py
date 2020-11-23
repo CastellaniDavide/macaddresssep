@@ -116,7 +116,7 @@ if __name__ == "__main__":
 	db = True
 
 	# Visual Studio flag
-	vs = False
+	vs = True
 
 	# check if is launched by .bat file
 	if "--batch" in sys.argv or "-b" in sys.argv:
