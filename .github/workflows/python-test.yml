@@ -26,4 +26,5 @@ jobs:
         pip install -r requirements/requirements.txt
     - name: Test with pytest
       run: |
+        cd bin
         pytest
